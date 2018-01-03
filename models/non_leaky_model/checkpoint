@@ -1,0 +1,2 @@
+model_checkpoint_path: "non_leaky_model.ckpt"
+all_model_checkpoint_paths: "non_leaky_model.ckpt"

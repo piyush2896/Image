@@ -11,6 +11,9 @@ You are building TWO models using Tensorflow to recognize apple fruit in images.
 4. Create two CNN models - one using your own activation function and the other using Relu. Create the models by training them on the training dataset.
 5. Compare which one was better using the validation dataset.
 
+## Dataset
+The dataset can be downloaded from [this](https://drive.google.com/open?id=1m1VJbQVILUOQkg2yexxFop5L-g-Asa99) link
+
 ## Custom Activation Function
 Since tensorflow doesn't have any leaky relu functionality in `nn` submdoule. I decided to go with it. 
 As can be seen in `model.py` at `line 51` my implementation of leaky relu using lambdas was as follows.

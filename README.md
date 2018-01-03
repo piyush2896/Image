@@ -13,7 +13,8 @@ You are building TWO models using Tensorflow to recognize apple fruit in images.
 
 ## Custom Activation Function
 Since tensorflow doesn't have any leaky relu functionality in `nn` submdoule. I decided to go with it. 
-As can be seen in `model.py` at `line 51` my implementation of leaky relu using lambdas was as follows.</ br>
+As can be seen in `model.py` at `line 51` my implementation of leaky relu using lambdas was as follows.
+
 ```relu = lambda x: tf.nn.relu(x) - alpha * tf.nn.relu(-x)```
 
 One benefit of using Relu (Non-leaky) is that it gives you a non-diminishing gradient in positive half.
